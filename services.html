@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Services</title>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap"
+            rel="stylesheet">
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script>
+            tailwind.config = {
+                theme: {
+                    extend: {
+                        colors: {
+                            'dark-blue': '#151B2C',
+                            'light-blue': '#1C2438',
+                        }
+                    }
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <!-- SEction-1 -->
+        <div
+            className="w-full h-[480px] bg-gradient-to-r from-[#1B2B44] to-white"
+            aria-hidden="true">
+
+            <img src="./image/Rectangle 74.png">
+        </div>
+
+        <!-- SEction-2 -->
+        <section class="flex items-center justify-center h-[200px] bg-gray-100">
+            <div class="bg-white rounded-lg shadow-lg p-4 flex gap-4">
+                <button
+                    class="px-6 py-3 text-lg font-medium rounded-lg transition-colors bg-blue-50 text-blue-700">
+                    Mutual Funds
+                </button>
+                <button
+                    class="px-6 py-3 text-lg font-medium rounded-lg transition-colors text-gray-400 hover:text-gray-600">
+                    Fixed Deposits / Bonds
+                </button>
+            </div>
+
+            <script>
+                const buttons = document.querySelectorAll('button');
+                buttons.forEach(button => {
+                    button.addEventListener('click', () => {
+                        buttons.forEach(btn => {
+                            btn.classList.remove('bg-blue-50', 'text-blue-700');
+                            btn.classList.add('text-gray-400', 'hover:text-gray-600');
+                        });
+                        button.classList.remove('text-gray-400', 'hover:text-gray-600');
+                        button.classList.add('bg-blue-50', 'text-blue-700');
+                    });
+                });
+            </script>
+        </section>
+
+        <!-- SEction-3 -->
+        <section class="bg-gray-100">
+            <div class="max-w-7xl mx-auto p-6 space-y-8">
+                <!-- Text Section -->
+                <div class="text-gray-600 text-lg leading-relaxed">
+
+                    <p> <img src="./image/Group 1000001806.png">
+                        Mutual Funds are becoming the most favourites with all
+                        types of investors. Investing in mutual funds ranks
+                        among one of the preferred ways of creating wealth over
+                        the long term. In fact, mutual funds represent the
+                        hands-off approach to entering the equity as well as
+                        debt market through professional management. It is an
+                        asset class, with diversifying the risk and portfolio,
+                        has a successful track record. There are a wide variety
+                        of mutual funds that are viable investment avenues to
+                        meet a wide variety of financial goals.
+                    </p>
+                </div>
+
+                <!-- Visual Finance Growth Section -->
+                <img
+                    src="./image/arrangement-pile-coins-with-finance-word 1.png"
+                    class="w-full">
+
+            </div>
+        </section>
+
+        <!-- SEction-4 -->
+        <section
+            class="min-h-screen bg-gradient-to-br from-dark-blue to-light-blue text-white px-4 py-12 md:px-8">
+            <div class="max-w-7xl mx-auto space-y-16">
+                <!-- First Section -->
+                <section class="space-y-8">
+                    <h2
+                        class="text-4xl font-bold text-center max-w-3xl mx-auto">
+                        Advantages Of Investing Through Mutual Funds
+                    </h2>
+
+                    <div class="grid md:grid-cols-3 gap-6">
+                        <div class="space-y-4">
+                            <div class="flex items-center gap-3">
+                                <div
+                                    class="w-5 h-5 border border-white/80 flex items-center justify-center">
+                                    <img src="./image/Frame.png">
+                                </div>
+                                <span class="text-lg">Professional
+                                    Management.</span>
+                            </div>
+                            <div class="flex items-center gap-3">
+                                <div
+                                    class="w-5 h-5 border border-white/80 flex items-center justify-center">
+                                    <img src="./image/Frame.png">
+                                </div>
+                                <span class="text-lg">Diversification.</span>
+                            </div>
+                            <div class="flex items-center gap-3">
+                                <div
+                                    class="w-5 h-5 border border-white/80 flex items-center justify-center">
+                                    <img src="./image/Frame.png">
+                                </div>
+                                <span class="text-lg">Return potential.</span>
+                            </div>
+                            <div class="flex items-center gap-3">
+                                <div
+                                    class="w-5 h-5 border border-white/80 flex items-center justify-center">
+                                    <img src="./image/Frame.png">
+                                </div>
+                                <span class="text-lg">Well regulated.</span>
+                            </div>
+                        </div>
+
+                        <div class="space-y-4">
+                            <div class="flex items-center gap-3">
+                                <div
+                                    class="w-5 h-5 border border-white/80 flex items-center justify-center">
+                                    <img src="./image/Frame.png">
+                                </div>
+                                <span class="text-lg">Convenient
+                                    Administration.</span>
+                            </div>
+                            <div class="flex items-center gap-3">
+                                <div
+                                    class="w-5 h-5 border border-white/80 flex items-center justify-center">
+                                    <img src="./image/Frame.png">
+                                </div>
+                                <span class="text-lg">Return potential.</span>
+                            </div>
+                            <div class="flex items-center gap-3">
+                                <div
+                                    class="w-5 h-5 border border-white/80 flex items-center justify-center">
+                                    <img src="./image/Frame.png">
+                                </div>
+                                <span class="text-lg">Low cost.</span>
+                            </div>
+                            <div class="flex items-center gap-3">
+                                <div
+                                    class="w-5 h-5 border border-white/80 flex items-center justify-center">
+                                    <img src="./image/Frame.png">
+                                </div>
+                                <span class="text-lg">Tax benefits.</span>
+                            </div>
+                        </div>
+
+                        <div class="space-y-4">
+                            <div class="flex items-center gap-3">
+                                <div
+                                    class="w-5 h-5 border border-white/80 flex items-center justify-center">
+                                    <img src="./image/Frame.png">
+                                </div>
+                                <span class="text-lg">Choice of schemes.</span>
+                            </div>
+                            <div class="flex items-center gap-3">
+                                <div
+                                    class="w-5 h-5 border border-white/80 flex items-center justify-center">
+                                    <img src="./image/Frame.png">
+                                </div>
+                                <span class="text-lg">Transparency.</span>
+                            </div>
+                            <div class="flex items-center gap-3">
+                                <div
+                                    class="w-5 h-5 border border-white/80 flex items-center justify-center">
+                                    <img src="./image/Frame.png">
+                                </div>
+                                <span class="text-lg">Flexibility.</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <p class="text-center text-lg w-l mx-auto text-white/80">
+                        We provide range of schemes of all leading mutual funds
+                        to meet your investment needs. Our dedicated team will
+                        understand your financial objectives, risk appetite and
+                        accordingly,
+                        recommend mutual funds, that best serves your
+                        requirements. You can also login into our website and
+                        select the mutual funds to meet your requirements.
+                    </p>
+                </section>
+
+                <!-- Second Section -->
+                <section class="space-y-8">
+                    <h2 class="text-4xl font-bold text-center">
+                        The Solitaire Financial Solutions <br />Advantage
+                    </h2>
+
+                    <div class="grid md:grid-cols-3 gap-6">
+                        <div class="space-y-4">
+                            <div class="flex items-center gap-3">
+                                <div
+                                    class="w-5 h-5 border border-white/80 flex items-center justify-center">
+                                    <img src="./image/Frame.png">
+                                </div>
+                                <span class="text-lg">Personalised
+                                    Services.</span>
+                            </div>
+                            <div class="flex items-center gap-3">
+                                <div
+                                    class="w-5 h-5 border border-white/80 flex items-center justify-center">
+                                    <img src="./image/Frame.png">
+                                </div>
+                                <span class="text-lg">Asset Allocation
+                                    Model.</span>
+                            </div>
+                            <div class="flex items-center gap-3">
+                                <div
+                                    class="w-5 h-5 border border-white/80 flex items-center justify-center">
+                                    <img src="./image/Frame.png">
+                                </div>
+                                <span class="text-lg">Schemes from all major
+                                    AMCs.</span>
+                            </div>
+                        </div>
+
+                        <div class="space-y-4">
+                            <div class="flex items-center gap-3">
+                                <div
+                                    class="w-5 h-5 border border-white/80 flex items-center justify-center">
+                                    <img src="./image/Frame.png">
+                                </div>
+                                <span class="text-lg">Best Advisory
+                                    service.</span>
+                            </div>
+                            <div class="flex items-center gap-3">
+                                <div
+                                    class="w-5 h-5 border border-white/80 flex items-center justify-center">
+                                    <img src="./image/Frame.png">
+                                </div>
+                                <span class="text-lg">Online Transaction
+                                    facilities.</span>
+                            </div>
+                        </div>
+
+                        <div class="space-y-4">
+                            <div class="flex items-center gap-3">
+                                <div
+                                    class="w-5 h-5 border border-white/80 flex items-center justify-center">
+                                    <img src="./image/Frame.png">
+                                </div>
+                                <span class="text-lg">Regular Portfolio
+                                    review.</span>
+                            </div>
+                            <div class="flex items-center gap-3">
+                                <div
+                                    class="w-5 h-5 border border-white/80 flex items-center justify-center">
+                                    <img src="./image/Frame.png">
+                                </div>
+                                <span class="text-lg">Online Back-office.</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+            </div>
+        </section>
+
+        <!-- SEction-5 -->
+        <div class="w-2xl h-[200px]">
+
+        <!-- Text Section -->
+        <div class="text-gray-600 text-lg bg-white">
+            <img src="./image/Group 1000005158.png" class="w-xl h-xl">
+
+        </div>
+        <div><h1>contact us</h1></div>
+
+    </div>
+    </body>
+</html>

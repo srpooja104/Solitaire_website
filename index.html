@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Solitaire</title>
+        <link rel="stylesheet" href="style.css">
+
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap"
+            rel="stylesheet">
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script>
+                tailwind.config = {
+                    theme: {
+                        extend: {
+                            fontFamily: {
+                                'inter': ['Inter', 'sans-serif'],
+                            },
+                            colors: {
+                                'custom-blue': '#2B579A',
+                                'primary': '#2B4B96',
+                            },
+                        },
+                    },
+                }
+            </script>
+
+    </head>
+    <body>
+        <!-- Navigation -->
+        <header
+            class="flex items-center justify-between p-4 bg-white shadow-md">
+            <!-- Logo -->
+            <a href="/" class="flex-shrink-0">
+                <img src="./image/image 11.png"
+                    alt="Solitaire Financial Solutions" class="h-12 w-auto">
+            </a>
+
+            <!-- Mobile Menu Button -->
+            <button
+                class="md:hidden flex items-center justify-center w-10 h-10 text-gray-700">
+                <svg class="w-6 h-6" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2">
+                    <line x1="3" y1="12" x2="21" y2="12"></line>
+                    <line x1="3" y1="6" x2="21" y2="6"></line>
+                    <line x1="3" y1="18" x2="21" y2="18"></line>
+                </svg>
+            </button>
+
+            <!-- Navigation Menu -->
+            <nav class="hidden md:flex space-x-6">
+                <ul class="flex space-x-6 text-gray-700">
+                    <li><a href="/" class="hover:text-blue-600">Home</a></li>
+                    <li><a href="about.html" class="hover:text-blue-600">About
+                            Us</a></li>
+                    <li><a href="services.html"
+                            class="hover:text-blue-600">Services</a></li>
+                    <li><a href="blog" class="hover:text-blue-600">Blog</a></li>
+                    <li><a href="financial-planning"
+                            class="hover:text-blue-600">Financial
+                            Planning</a></li>
+                    <li><a href="contact" class="hover:text-blue-600">Contact
+                            Us</a></li>
+                </ul>
+            </nav>
+
+            <!-- Contact Now Button -->
+            <a href="/contact"
+                class="hidden md:inline-block px-6 py-2 bg-blue-600 text-white rounded hover:bg-blue-700">
+                Contact Now →
+            </a>
+        </header>
+
+        <!-- SECTION 1 -->
+        <div class="background">
+            <img src="./image/Rectangle 3 (4).png">
+            <!-- <div class="grid grid-cols-2 gap-4">
+                <div class="p-4 bg-white shadow-md rounded-md">
+                   <img src="./image/Group 1000005205 (1).png" alt="">
+                </div> 
+           </div> -
+        </div>
+        
+
+         <!-- SECTION 2  -->
+            <div class="container mx-auto px-4 py-12">
+                <div
+                    class="grid lg:grid gap-12 items-center align-items: center">
+
+                    <div
+                        class="relative w-full h-[400px] flex justify-center items-center">
+                        <img
+                            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Group%201000001910-91orqSX0Ong6PpUXnsJYLa9ILbL8sB.png"
+                            alt="Team working together"
+                            class=" h-full object-cover w-25%  rounded-lg">
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- SECTION 3 -->
+            <body class="bg-gray-100">
+                <section class="w-full py-12 md:py-24 px-4">
+                    <div class="container mx-auto max-w-6xl">
+                        <div class="text-center mb-12">
+                            <h2
+                                class="text-primary text-lg font-medium mb-4">Our
+                                Services</h2>
+                            <h3
+                                class="text-4xl font-bold text-gray-900 mb-6">Discover
+                                Our Solutions</h3>
+                            <p class="text-gray-600 max-w-3xl mx-auto">
+                                If you are going to use a passage of Lorem
+                                Ipsum,
+                                you need to embarrassing hidden in the middle of
+                                text.suffered alteration in some form, by
+                                injected
+                                humour.
+                            </p>
+                        </div>
+
+                        <div
+                            class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                            <div class="bg-primary text-white p-8 rounded-lg">
+                                <div class="flex justify-center mb-6">
+                                    <svg xmlns="http://www.w3.org/2000/svg"
+                                        class="h-12 w-12" fill="none"
+                                        viewBox="0 0 24 24"
+                                        stroke="currentColor">
+                                        <path stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                            stroke-width="2"
+                                            d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
+                                    </svg>
+                                </div>
+                                <h4
+                                    class="text-2xl font-bold text-center mb-4">MUTUAL
+                                    FUNDS</h4>
+                                <p class="text-center mb-6 text-gray-100">
+                                    Mutual Funds are becoming the most
+                                    favourites.
+                                    We provide range of schemes of all leading
+                                    mutual funds to meet your investment needs.
+                                </p>
+                                <div class="text-center">
+                                    <a href="#"
+                                        class="inline-flex items-center text-white hover:underline">
+                                        Read More <span class="ml-2">»</span>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="bg-white shadow-lg p-8 rounded-lg">
+                                <div class="flex justify-center mb-6">
+                                    <svg xmlns="http://www.w3.org/2000/svg"
+                                        class="h-12 w-12 text-primary"
+                                        fill="none"
+                                        viewBox="0 0 24 24"
+                                        stroke="currentColor">
+                                        <path stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                            stroke-width="2"
+                                            d="M9 8h6m-5 0a3 3 0 110 6H9l3 3m-3-6h6m6 1a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                    </svg>
+                                </div>
+                                <h4
+                                    class="text-2xl font-bold text-center mb-4 text-gray-900">FINANCIAL
+                                    PLANNING</h4>
+                                <p class="text-center mb-6 text-gray-600">
+                                    Financial Planning is an ongoing process to
+                                    help
+                                    you make sensible decisions about money that
+                                    can
+                                    help you achieve your goals in life.
+                                </p>
+                                <div class="text-center">
+                                    <a href="#"
+                                        class="inline-flex items-center text-primary hover:underline">
+                                        Read More <span class="ml-2">»</span>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="bg-white shadow-lg p-8 rounded-lg">
+                                <div class="flex justify-center mb-6">
+                                    <svg xmlns="http://www.w3.org/2000/svg"
+                                        class="h-12 w-12 text-primary"
+                                        fill="none"
+                                        viewBox="0 0 24 24"
+                                        stroke="currentColor">
+                                        <path stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                            stroke-width="2"
+                                            d="M13 10V3L4 14h7v7l9-11h-7z" />
+                                    </svg>
+                                </div>
+                                <h4
+                                    class="text-2xl font-bold text-center mb-4 text-gray-900">FIXED
+                                    DEPOSITS/BONDS</h4>
+                                <p class="text-center mb-6 text-gray-600">
+                                    A fixed income security is an investment
+                                    that
+                                    pays regular income in the form of a coupon
+                                    payment, interest payment or preferred
+                                    dividend.
+                                </p>
+                                <div class="text-center">
+                                    <a href="#"
+                                        class="inline-flex items-center text-primary hover:underline">
+                                        Read More <span class="ml-2">»</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </body>
+
+            <!-- SECTION 4 -->
+
+            <section class="bg-[#1B2238] py-16 px-4">
+                <div class="max-w-screen-xl mx-auto text-center">
+                    <h2 class="text-white text-lg mb-2">Our Blog</h2>
+                    <h1
+                        class="text-white text-3xl md:text-5xl font-bold mb-6">Explore
+                        Blog</h1>
+                    <p class="text-gray-300 max-w-3xl mx-auto mb-12">
+                        If you are going to use a passage of Lorem Ipsum, you
+                        need
+                        to embarrassing hidden in the middle of text. Suffered
+                        alteration in some form, by injected humour.
+                    </p>
+
+                    <div
+                        class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
+                        <!-- Blog Post 1 -->
+                        <div class="relative group">
+                            <div
+                                class="relative h-[400px] w-full overflow-hidden rounded-lg">
+                                <img
+                                    src="./image/blog1.png"
+                                    alt="blog1"
+                                    class="w-full h-full" />
+                            </div>
+                        </div>
+
+                        <!-- Blog Post 2 -->
+                        <div class="relative group">
+                            <div
+                                class="relative h-[400px] w-full overflow-hidden rounded-lg">
+                                <img
+                                    src="./image/blog2.png"
+                                    alt="blog1"
+                                    class="w-full h-full" />
+                            </div>
+                        </div>
+
+                        <!-- Blog Post 3 -->
+                        <div class="relative group">
+                            <div
+                                class="relative h-[400px] w-full overflow-hidden rounded-lg">
+                                <img
+                                    src="./image/blog3.png"
+                                    alt="blog1"
+                                    class="w-full h-full" />
+                            </div>
+                        </div>
+                    </div>
+                    <a
+                        href="#"
+                        class="inline-flex items-center gap-2 px-6 py-3 bg-[#2B5BDB] text-white rounded-lg hover:bg-[#2348AB] transition-colors">
+                        View All
+                        <svg
+                            class="w-4 h-4"
+                            fill="none"
+                            stroke="currentColor"
+                            viewBox="0 0 24 24">
+                            <path
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="2"
+                                d="M9 5l7 7-7 7" />
+                        </svg>
+                    </a>
+                </div>
+            </section>
+
+            <!-- SECTION-5 -->
+            <section class="bg-gray w-full h-[315px]">
+                <div class="box mt-9"><img
+                        src="./image/Group 1000001884.png"
+                        alt />
+                </div>
+            </section>
+
+            <!-- SECTION-6 -->
+            <div class="bg-gray-100">
+                <section class="w-full py-12 md:py-24 px-4">
+                    <div class="container mx-auto max-w-6xl">
+                        <div class="text-center mb-12">
+                            <h2
+                                class="text-primary text-lg font-medium mb-4">Secure
+                                Your Future</h2>
+                            <h3
+                                class="text-4xl font-bold text-gray-900 mb-6">Financial
+                                Planning</h3>
+                            <p class="text-gray-600 max-w-3xl mx-auto">
+                                If you are going to use a passage of Lorem
+                                Ipsum,
+                                you need to embarrassing hidden in the middle of
+                                text.suffered alteration in some form, by
+                                injected
+                                humour.
+                            </p>
+                        </div>
+
+                        <div
+                            class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                            <!-- Mutual Funds Card -->
+                            <div class="bg-primary text-white p-8 rounded-lg">
+                                <div class="flex justify-center mb-6">
+                                    <img src="./image/Rectangle 53.png">
+                                </div>
+                                <h4
+                                    class="text-xl font-bold text-center mb-4">Financial
+                                    Planning</h4>
+                                <p class="text-center mb-6 text-gray-100">
+                                    All the we to can lorem Ipsum t a gener be
+                                    the
+                                    Internet tend to repeat prede asnece. look
+                                    even
+                                    slightly believable.
+                                </p>
+                                <div class="text-center text-white">
+                                    <div class="text-center">
+                                        <img src="./image/Group 1000001806.png"
+                                            class="font-white" />
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Financial Planning Card -->
+                            <div class="bg-white shadow-lg p-8 rounded-lg">
+                                <div class="flex justify-center mb-6">
+                                    <img src="./image/Rectangle 55.png">
+                                </div>
+                                <h4
+                                    class="text-xl font-bold text-center mb-4 text-gray-900">Financial
+                                    Calculator</h4>
+                                <p class="text-center mb-6 text-gray-600">
+                                    All the we to can lorem Ipsum t a gener be
+                                    the
+                                    Internet tend to repeat prede asnece. look
+                                    even
+                                    slightly believable.
+                                </p>
+                                <div class="text-center text-gray">
+                                    <div class="text-center">
+                                        <img src="./image/Group 1000001806.png"
+                                            class="font-white" />
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Fixed Deposits/Bonds Card -->
+                            <div class="bg-white shadow-lg p-8 rounded-lg">
+                                <div class="flex justify-center mb-6">
+                                    <img src="./image/Rectangle 57.png">
+                                </div>
+                                <h4
+                                    class="text-xl font-bold text-center mb-4 text-gray-900">Securities
+                                    commission Sec
+                                </h4>
+                                <p class="text-center mb-6 text-gray-600">
+                                    All the we to can lorem Ipsum t a gener be
+                                    the
+                                    Internet tend to repeat prede asnece. look
+                                    even
+                                    slightly believable.
+                                </p>
+                                <div class="text-center">
+                                    <img src="./image/Group 1000001806.png"
+                                        class="font-white" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <!-- SECTION-7 -->
+            <section class="bg-gray w-full h-[315px]">
+                <div class="bg-[url('path-to-your-image')] ">
+                    <img
+                        src="./image/Group 1000001886.png"
+                    alt />
+                </div>
+            </section>
+
+            <!-- SECTION-8 -->
+            <section class="bg-[#1B2238] w-full h-[413px]">
+                <!-- <img src="./image/Frame.png"> -->
+                <div class="max-w-screen-xl mx-auto text-center bg-white">
+                    <div
+                        class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-8 mb-12">
+                        <!-- Blog Post 1 -->
+                        <div class="relative group">
+                            <div
+                                class="relative h-[300px] w-[484px] overflow-hidden rounded-lg text-center">
+                                <img
+                                    src="./image/Rectangle 66.png"
+                                    alt="blog1"
+                                    class="w-full h-full" />
+                            </div>
+                        </div>
+                        <div class>
+                            <p>The World Class</p>
+                            <h1>The Different Types Financial Markets</h1>
+                            <p>All the Lorem Ipsum generators on the Internet
+                                tend to repeat predefined chunks as necessary,
+                                making this the first true generator on the
+                                Internet. It uses a dictionary of
+                                Ipsum is therefore always free from repetition,
+                                will be come to injected. </p>
+                            <p>Services hours : 19.00-22:00</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SECTION-9 -->
+            <section class="bg-white w-full h-[413px]">
+<img src="./image/Testimonial.png">
+<img src="./image/Group 1000001847.png">
+            </section>
+<!-- SECTION-10-->
+<section class="bg-gray w-25% text-center h-[100px] mt-[200px]">
+    <img src="./image/Rectangle 35.png">
+   
+       
+    
+</section>
+
+
+            <script
+                src="https://code.jquery.com/jquery-3.6.0.min.js">
+        </script>
+            <script>
+        $(document).ready(function() {
+            $('.mobile-menu-btn').click(function() {
+                $('.nav-menu').toggleClass('active');
+            });
+
+            // Close menu when clicking outside
+            $(document).click(function(event) {
+                if (!$(event.target).closest('.header').length) {
+                    $('.nav-menu').removeClass('active');
+                }
+            });
+
+            // Handle window resize
+            $(window).resize(function() {
+                if ($(window).width() > 1024) {
+                    $('.nav-menu').removeClass('active');
+                }
+            });
+        });
+        </script>
+
+        </body>
+
+    </html>
