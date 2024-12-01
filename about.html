@@ -1,68 +1,313 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>about</title>
-        <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap"
-        rel="stylesheet">
-        <script src="https://cdn.tailwindcss.com"></script>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>about</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
 
-    </head>
-    <body>
-        <div>
-            <div>
-                <div>
-                    <img src="./image/Rectangle 74.png" class=" h-full object-cover w-25%  rounded-lg justify-center items-center" />
-                </div>
-            </div>
-        </div>
-        <!-- <img src="./image/Rectangle 72.png"/> -->
+  </head>
+  <body>
+    <!-- SECTION-1 -->
+   <div class="relative">
+  <!-- Layer 1 (Background Image) with Transparency -->
+  <img src="./image/Rectangle 74.png" alt="layer 1"
+    class="absolute top-0 left-0 w-full h-full object-cover opacity-100" />
 
-        <!-- SECTION-2 -->
-        <div class="container justify-center items-center">
-            <div class="grid lg:grid gap-12  items-center align-items: center text-center">
-                <!-- Left Column - Image -->
-                <div
-                    class="relative w-full h-[300px] flex justify-center items-center">
-                    <img
-                        src="./image/Group 1000005187 (2).png"
-                        alt="Team working together"
-                        class=" h-full object-cover w-25%  rounded-lg justify-center items-center ml-[298px]">
-                </div>
-            </div>
-        </div>
- <!-- SECTION-3 -->
-        <div class="container justify-center items-center">
-            <div class="grid lg:grid gap-12  items-center align-items: center text-center">
-                <!-- Left Column - Image -->
-                <div
-                    class="relative w-full h-[300px] flex justify-center items-center">
-                    <img
-                        src="./image/Group 1000001955.png"
-                        alt="Team working together"
-                        class=" h-full object-cover w-25%  rounded-lg justify-center items-center ml-[298px]">
-                </div>
-            </div>
-        </div>
+  <!-- Layer 2 (Bottom Image) -->
+  <img src="./image/Rectangle 73.png" alt="layer 2"
+    class="w-full h-full object-cover" />
 
-
- <!-- SECTION-4 -->
- <div class="container justify-center items-center">
-    <div class="grid lg:grid gap-12  items-center align-items: center text-center">
-        <!-- Left Column - Image -->
-        <div
-            class="relative w-full h-[300px] flex justify-center items-center">
-            <img
-                src="./image/Group 1000005208.png"
-                alt="Team working together"
-                class=" h-full object-cover w-25%  rounded-lg justify-center items-center ml-[298px]">
-        </div>
-    </div>
+  <!-- About Image on Top of All Layers -->
+  <img src="./image/about-us.png" alt="about image"
+    class="absolute top-1/4 sm:top-1/2 left-10 sm:left-20 w-1/4 sm:w-1/6 object-cover z-10" />
 </div>
 
 
+    <!-- <img src="./image/Rectangle 72.png"/> -->
+
+    <!-- SECTION-2 -->
+    <div class="card">
+      <div
+        class="grid lg:grid gap-12  items-center align-items: center text-center">
+        Left Column - Image
+        <div
+          class="relative w-full h-[300px] flex justify-center items-center">
+          <img
+            src="./image/Group 1000005187 (2).png"
+            alt="Team working together"
+            class=" h-full object-cover w-[1000px]  rounded-lg justify-center items-center">
+        </div>
+      </div>
+    </div>
+
+
+    
+    <!-- SECTION-3 -->
+    <body class="bg-gray-900 text-white">
+      <!-- Section: About SFS -->
+      <section class="py-12 px-6">
+        <div class="max-w-7xl mx-auto">
+          <h1 class="text-4xl font-bold text-center mb-12">About SFS</h1>
+          
+          <!-- What is SFS? -->
+          <div class="flex flex-col lg:flex-row items-center mb-12">
+            <div class="lg:w-1/2 flex justify-center mb-6 lg:mb-0">
+              <img src="./image/Group 1000001916.png" alt="Team Image" class="rounded-lg shadow-lg">
+            </div>
+            <div class="lg:w-1/2">
+              <h2 class="text-3xl font-semibold mb-4">01. What Is SFS?</h2>
+              <p class="text-gray-300">
+                Financial Amet, consectetur adipiscing, sed do eiusmod tempor ut labore. There are to be many variations of passages Lorem Ipsum available, but the majority have suffered alteration in some form.
+              </p>
+            </div>
+          </div>
+          
+          <!-- Our Approach -->
+          <div class="flex flex-col lg:flex-row-reverse items-center mb-12">
+            <div class="lg:w-1/2 flex justify-center mb-6 lg:mb-0">
+              <img src="./image/Rectangle 76.png" alt="Handshake Image" class="rounded-lg shadow-lg">
+            </div>
+            <div class="lg:w-1/2">
+              <h2 class="text-3xl font-semibold mb-4">02. Our Approach</h2>
+              <p class="text-gray-300">
+                Financial Amet, consectetur adipiscing, sed do eiusmod tempor ut labore. There are to be many variations of passages Lorem Ipsum available, but the majority have suffered alteration in some form.
+              </p>
+            </div>
+          </div>
+          
+          <!-- Why Choose Us? -->
+          <div class="flex flex-col lg:flex-row items-center">
+            <div class="lg:w-1/2 flex justify-center mb-6 lg:mb-0">
+              <img src="./image/Group 1000001951.png" alt="Graph Image" class="rounded-lg shadow-lg">
+            </div>
+            <div class="lg:w-1/2">
+              <h2 class="text-3xl font-semibold mb-4">03. Why Choose Us?</h2>
+              <p class="text-gray-300">
+                Financial Amet, consectetur adipiscing, sed do eiusmod tempor ut labore. There are to be many variations of passages Lorem Ipsum available, but the majority have suffered alteration in some form.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </body>
+    
+
+    <!-- SECTION-4 -->
+    <body class="bg-gray-100 flex items-center justify-center min-h-screen">
+      <div class="container mx-auto px-4">
+        <!-- Grid Layout -->
+        <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
+          <!-- Mission Section -->
+          <div class="bg-white p-6 rounded-lg shadow-lg flex flex-col">
+            <div class="flex items-center space-x-4">
+              <!-- Icon -->
+              <div class="bg-blue-100 p-4 rounded-full flex items-center justify-center">
+                <img src="./image/Frame.png"/>
+              </div>
+              <!-- Title -->
+              <h2 class="text-xl sm:text-2xl font-bold text-gray-800">Our Mission</h2>
+            </div>
+            <!-- Text -->
+            <p class="mt-4 text-sm sm:text-base text-gray-600 leading-relaxed">
+              The charms of pleasure of the moment, we see so blinded "At vero eos et accusamus et iusto odio dignissimos ducimus qui
+              to blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati
+              cupiditate non provident.
+
+            </p>
+          </div>
+    
+          <!-- Vision Section -->
+          <div class="bg-white p-6 rounded-lg shadow-lg flex flex-col">
+            <div class="flex items-center space-x-4">
+              <!-- Icon -->
+              <div class="bg-blue-100 p-4 rounded-full flex items-center justify-center">
+                <img src="./image/Frame (1).png"/>
+              </div>
+              <!-- Title -->
+              <h2 class="text-xl sm:text-2xl font-bold text-gray-800">Our Vision</h2>
+            </div>
+            <!-- Text -->
+            <p class="mt-4 text-sm sm:text-base text-gray-600 leading-relaxed">
+              "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti
+              quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia.
+            </p>
+          </div>
+        </div>
+      </div>
+    </body>
+
+    <!-- SECTION-5 -->
+  <section class="w-full bg-purple-500 mt-6 mb-6 sm:mt-8 sm:mb-8 lg:mt-12 lg:mb-12 h-[150px] flex items-center">
+  <!-- Content container -->
+  <div class="sm:px-6 sm:py-24 lg:px-8 w-full flex justify-between items-center">
+    <h2 class="text-center text-xl sm:text-2xl font-bold tracking-tight text-white">
+      Ready To Work With Us? Just Drop Us a Line Please
+    </h2>
+
+    <button
+      class="bg-white text-gray-900 hover:bg-gray-100 px-6 py-3 rounded-md font-semibold flex items-center justify-center min-w-[200px] mt-4 md:mt-0
+      transition duration-300 ease-in-out transform hover:scale-105"
+    >
+      <!-- Replace with an actual icon or remove if not needed -->
+      <svg xmlns="http://www.w3.org/2000/svg" class="mr-2 h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          d="M12 10h.01M12 6h.01M12 14h.01M12 18h.01M12 22h.01M16 22a4 4 0 00-4-4H8a4 4 0 00-4 4h12z"
+        />
+      </svg>
+      Call To Action
+    </button>
+  </div>
+</section>
+    
+    
+
+    <!-- Section-6 -->
+    <div class="relative flex justify-center items-center px-4">
+      <div
+          class="flex flex-col sm:flex-row items-center space-y-4 sm:space-y-0 sm:space-x-4 bg-white p-4 rounded-lg shadow-lg w-full max-w-4xl">
+          <!-- Left: Title -->
+          <div
+              class="text-lg font-semibold text-gray-800 text-center sm:text-left">
+              <p>Subscribe to our Newsletter</p>
+          </div>
+
+          <!-- Middle: Email Input -->
+          <div class="w-full sm:w-auto">
+              <input
+                  type="email"
+                  placeholder="Enter your email"
+                  class="px-4 py-2 w-full sm:w-[300px] rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500" />
+          </div>
+
+          <!-- Right side: Subscribe Button -->
+          <div class="w-full sm:w-auto">
+              <button
+                  class="px-6 py-2 w-full sm:w-auto bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition duration-300">
+                  Subscribe
+              </button>
+          </div>
+      </div>
+  </div>
+<!-- Section-7 -->
+<section class="bg-[#0A132F] text-white">
+  <footer class="py-10 bg-[#0A132F]">
+      <div class="container mx-auto px-4">
+          <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+              <!-- Logo and Description -->
+              <div>
+                  <div class="flex items-center mb-4 text-white">
+
+                      <img src="./image/image 11.png"
+                          class="font-white"></img>
+              </div>
+              <p class="text-sm leading-relaxed text-gray-300">
+                  There are many variations of passages of Lorem
+                  Ipsum available, but the majority have suffered
+                  alteration.
+              </p>
+              <div class="w-2/4 flex justify-center gap-2">
+                  <img src="./image/Group 1000001807.png"
+                      class="font-white" />
+                  <img src="./image/Group 1000001808.png"
+                      class="font-white" />
+                  <img src="./image/Group 1000001809.png"
+                      class="font-white" />
+                  <img src="./image/Group 1000001810.png"
+                      class="font-white" />
+              </div>
+
+              <div class="flex space-x-4 mt-4">
+                  <a href="#"
+                      class="text-gray-300 hover:text-white">
+                      <i class="fab fa-facebook-f"></i>
+                  </a>
+                  <a href="#"
+                      class="text-gray-300 hover:text-white">
+                      <i class="fab fa-instagram"></i>
+                  </a>
+                  <a href="#"
+                      class="text-gray-300 hover:text-white">
+                      <i class="fab fa-linkedin-in"></i>
+                  </a>
+                  <a href="#"
+                      class="text-gray-300 hover:text-white">
+                      <i class="fab fa-twitter"></i>
+                  </a>
+              </div>
+          </div>
+
+          <!-- Links -->
+          <div>
+              <h3 class="font-semibold mb-4">Link</h3>
+              <ul class="space-y-2 text-sm text-gray-300">
+                  <li><a href="#"
+                          class="hover:text-white">Home</a></li>
+                  <li><a href="#" class="hover:text-white">About
+                          Us</a></li>
+                  <li><a href="#"
+                          class="hover:text-white">Services</a></li>
+                  <li><a href="#"
+                          class="hover:text-white">Downloads</a></li>
+                  <li><a href="#"
+                          class="hover:text-white">Contact</a></li>
+              </ul>
+          </div>
+
+          <!-- Services -->
+          <div>
+              <h3 class="font-semibold mb-4">Services</h3>
+              <ul class="space-y-2 text-sm text-gray-300">
+                  <li><a href="#"
+                          class="hover:text-white">Financial
+                          Planning</a></li>
+                  <li><a href="#"
+                          class="hover:text-white">Financial
+                          Calculators</a></li>
+                  <li><a href="#"
+                          class="hover:text-white">Derivatives</a></li>
+                  <li><a href="#"
+                          class="hover:text-white">Currencies</a></li>
+                  <li><a href="#"
+                          class="hover:text-white">NRI</a></li>
+              </ul>
+          </div>
+
+          <!-- Contact -->
+          <div>
+              <h3 class="font-semibold mb-4">Contact Us</h3>
+              <ul class="space-y-2 text-sm text-gray-300">
+                  <li class="flex items-center">
+                      <img src="./image/Group 128.png">
+                      +91 9328036665
+                  </li>
+                  <li class="flex items-center">
+                      <img src="./image/Group 128 (1).png">
+                      info@fintaxnology.com
+                  </li>
+                  <li class="flex items-center">
+                      <img src="./image/Group 128 (2).png">
+                      2, Ground Floor, F-1 “Shruti” Mukta Nand
+                      Nager, Nr. Gujrat, Adajan, Surat-395006.
+                  </li>
+              </ul>
+          </div>
+      </div>
+      <div
+          class="border-t border-gray-700 mt-10 pt-4 text-center text-sm text-gray-300">
+          Copyright © 2023 Financial Solutions. All Rights
+          Reserved.
+      </div>
+  </div>
+</footer>
+</section>
+
 
     </body>
-</html>
+  </html>

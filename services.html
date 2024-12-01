@@ -22,23 +22,32 @@
         </script>
     </head>
     <body>
-        <!-- SEction-1 -->
-        <div
-            className="w-full h-[480px] bg-gradient-to-r from-[#1B2B44] to-white"
-            aria-hidden="true">
+        <!-- Section-1 -->
+        <div class="relative">
+            <!-- Layer 1 (Background Image) with Transparency -->
+            <img src="./image/Rectangle 74.png" alt="layer 1"
+                class="absolute top-0 left-0 w-full h-full object-cover opacity-100" />
 
-            <img src="./image/Rectangle 74.png">
+            <!-- Layer 2 (Bottom Image) -->
+            <img src="./image/Rectangle 73.png" alt="layer 2"
+                class="w-full h-full object-cover" />
+
+            <!-- About Image on Top of All Layers -->
+            <img src="./image/service.png" alt="about image"
+                class="absolute top-1/4 sm:top-1/2 left-10 sm:left-20 w-1/4 sm:w-1/6 object-cover z-10" />
         </div>
 
-        <!-- SEction-2 -->
-        <section class="flex items-center justify-center h-[200px] bg-gray-100">
-            <div class="bg-white rounded-lg shadow-lg p-4 flex gap-4">
+        <!-- Section-2 -->
+        <div
+            class="flex items-center justify-center h-[200px] w-full bg-gray-100">
+            <div
+                class="bg-white rounded-lg shadow-lg p-4 flex gap-4 flex-wrap justify-center">
                 <button
-                    class="px-6 py-3 text-lg font-medium rounded-lg transition-colors bg-blue-50 text-blue-700">
+                    class="px-6 py-3 text-lg font-medium rounded-lg transition-colors bg-blue-50 text-blue-700 hover:bg-blue-100 hover:text-blue-800 w-full sm:w-auto">
                     Mutual Funds
                 </button>
                 <button
-                    class="px-6 py-3 text-lg font-medium rounded-lg transition-colors text-gray-400 hover:text-gray-600">
+                    class="px-6 py-3 text-lg font-medium rounded-lg transition-colors text-gray-400 hover:text-gray-600 w-full sm:w-auto">
                     Fixed Deposits / Bonds
                 </button>
             </div>
@@ -56,42 +65,43 @@
                     });
                 });
             </script>
-        </section>
+        </div>
 
         <!-- SEction-3 -->
-        <section class="bg-gray-100">
+        <div class="bg-gray-100">
             <div class="max-w-7xl mx-auto p-6 space-y-8">
                 <!-- Text Section -->
-                <div class="text-gray-600 text-lg leading-relaxed">
-
-                    <p> <img src="./image/Group 1000001806.png">
-                        Mutual Funds are becoming the most favourites with all
-                        types of investors. Investing in mutual funds ranks
-                        among one of the preferred ways of creating wealth over
-                        the long term. In fact, mutual funds represent the
-                        hands-off approach to entering the equity as well as
-                        debt market through professional management. It is an
-                        asset class, with diversifying the risk and portfolio,
-                        has a successful track record. There are a wide variety
-                        of mutual funds that are viable investment avenues to
-                        meet a wide variety of financial goals.
-                    </p>
+                <div class="text-gray-600 text-lg leading-relaxed flex items-start gap-2">
+                  
+                        <img src="./image/Group 1000001806.png"class="w-5 h-5 border border-white/80 flex items-center justify-center ">
+                        <p>
+                            Mutual Funds are becoming the most favourites with all
+                            types of investors. Investing in mutual funds ranks among one of the
+                            preferred ways of creating wealth over the long term.
+                            In fact, mutual funds represent the hands-off approach
+                            to entering the equity as well as debt market
+                            through professional management. It is an asset class,
+                            with diversifying the risk and portfolio, has a
+                            successful track record. There are a wide variety of
+                            mutual funds that are viable investment avenues to
+                            meet a wide variety of financial goals.
+                        </p>
+                    
                 </div>
 
                 <!-- Visual Finance Growth Section -->
                 <img
                     src="./image/arrangement-pile-coins-with-finance-word 1.png"
-                    class="w-full">
-
+                    class="w-full sm:w-auto sm:max-w-full md:max-w-[80%] lg:max-w-[70%] mx-auto">
             </div>
-        </section>
+        </div>
 
-        <!-- SEction-4 -->
-        <section
+        <!-- Section-4 -->
+        <div
             class="min-h-screen bg-gradient-to-br from-dark-blue to-light-blue text-white px-4 py-12 md:px-8">
             <div class="max-w-7xl mx-auto space-y-16">
                 <!-- First Section -->
-                <section class="space-y-8">
+                <div class="space-y-8">
                     <h2
                         class="text-4xl font-bold text-center max-w-3xl mx-auto">
                         Advantages Of Investing Through Mutual Funds
@@ -102,7 +112,7 @@
                             <div class="flex items-center gap-3">
                                 <div
                                     class="w-5 h-5 border border-white/80 flex items-center justify-center">
-                                    <img src="./image/Frame.png">
+                                    <img src="./image/Group 1000001997.png">
                                 </div>
                                 <span class="text-lg">Professional
                                     Management.</span>
@@ -110,21 +120,21 @@
                             <div class="flex items-center gap-3">
                                 <div
                                     class="w-5 h-5 border border-white/80 flex items-center justify-center">
-                                    <img src="./image/Frame.png">
+                                    <img src="./image/Group 1000001997.png">
                                 </div>
                                 <span class="text-lg">Diversification.</span>
                             </div>
                             <div class="flex items-center gap-3">
                                 <div
                                     class="w-5 h-5 border border-white/80 flex items-center justify-center">
-                                    <img src="./image/Frame.png">
+                                    <img src="./image/Group 1000001997.png">
                                 </div>
                                 <span class="text-lg">Return potential.</span>
                             </div>
                             <div class="flex items-center gap-3">
                                 <div
                                     class="w-5 h-5 border border-white/80 flex items-center justify-center">
-                                    <img src="./image/Frame.png">
+                                    <img src="./image/Group 1000001997.png">
                                 </div>
                                 <span class="text-lg">Well regulated.</span>
                             </div>
@@ -134,7 +144,7 @@
                             <div class="flex items-center gap-3">
                                 <div
                                     class="w-5 h-5 border border-white/80 flex items-center justify-center">
-                                    <img src="./image/Frame.png">
+                                    <img src="./image/Group 1000001997.png">
                                 </div>
                                 <span class="text-lg">Convenient
                                     Administration.</span>
@@ -142,21 +152,21 @@
                             <div class="flex items-center gap-3">
                                 <div
                                     class="w-5 h-5 border border-white/80 flex items-center justify-center">
-                                    <img src="./image/Frame.png">
+                                    <img src="./image/Group 1000001997.png">
                                 </div>
                                 <span class="text-lg">Return potential.</span>
                             </div>
                             <div class="flex items-center gap-3">
                                 <div
                                     class="w-5 h-5 border border-white/80 flex items-center justify-center">
-                                    <img src="./image/Frame.png">
+                                    <img src="./image/Group 1000001997.png">
                                 </div>
                                 <span class="text-lg">Low cost.</span>
                             </div>
                             <div class="flex items-center gap-3">
                                 <div
                                     class="w-5 h-5 border border-white/80 flex items-center justify-center">
-                                    <img src="./image/Frame.png">
+                                    <img src="./image/Group 1000001997.png">
                                 </div>
                                 <span class="text-lg">Tax benefits.</span>
                             </div>
@@ -166,21 +176,21 @@
                             <div class="flex items-center gap-3">
                                 <div
                                     class="w-5 h-5 border border-white/80 flex items-center justify-center">
-                                    <img src="./image/Frame.png">
+                                    <img src="./image/Group 1000001997.png">
                                 </div>
                                 <span class="text-lg">Choice of schemes.</span>
                             </div>
                             <div class="flex items-center gap-3">
                                 <div
                                     class="w-5 h-5 border border-white/80 flex items-center justify-center">
-                                    <img src="./image/Frame.png">
+                                    <img src="./image/Group 1000001997.png">
                                 </div>
                                 <span class="text-lg">Transparency.</span>
                             </div>
                             <div class="flex items-center gap-3">
                                 <div
                                     class="w-5 h-5 border border-white/80 flex items-center justify-center">
-                                    <img src="./image/Frame.png">
+                                    <img src="./image/Group 1000001997.png">
                                 </div>
                                 <span class="text-lg">Flexibility.</span>
                             </div>
@@ -196,10 +206,10 @@
                         requirements. You can also login into our website and
                         select the mutual funds to meet your requirements.
                     </p>
-                </section>
+                </div>
 
                 <!-- Second Section -->
-                <section class="space-y-8">
+                <div class="space-y-8">
                     <h2 class="text-4xl font-bold text-center">
                         The Solitaire Financial Solutions <br />Advantage
                     </h2>
@@ -209,7 +219,7 @@
                             <div class="flex items-center gap-3">
                                 <div
                                     class="w-5 h-5 border border-white/80 flex items-center justify-center">
-                                    <img src="./image/Frame.png">
+                                    <img src="./image/Group 1000001997.png">
                                 </div>
                                 <span class="text-lg">Personalised
                                     Services.</span>
@@ -217,7 +227,7 @@
                             <div class="flex items-center gap-3">
                                 <div
                                     class="w-5 h-5 border border-white/80 flex items-center justify-center">
-                                    <img src="./image/Frame.png">
+                                    <img src="./image/Group 1000001997.png">
                                 </div>
                                 <span class="text-lg">Asset Allocation
                                     Model.</span>
@@ -225,7 +235,7 @@
                             <div class="flex items-center gap-3">
                                 <div
                                     class="w-5 h-5 border border-white/80 flex items-center justify-center">
-                                    <img src="./image/Frame.png">
+                                    <img src="./image/Group 1000001997.png">
                                 </div>
                                 <span class="text-lg">Schemes from all major
                                     AMCs.</span>
@@ -236,7 +246,7 @@
                             <div class="flex items-center gap-3">
                                 <div
                                     class="w-5 h-5 border border-white/80 flex items-center justify-center">
-                                    <img src="./image/Frame.png">
+                                    <img src="./image/Group 1000001997.png">
                                 </div>
                                 <span class="text-lg">Best Advisory
                                     service.</span>
@@ -244,7 +254,7 @@
                             <div class="flex items-center gap-3">
                                 <div
                                     class="w-5 h-5 border border-white/80 flex items-center justify-center">
-                                    <img src="./image/Frame.png">
+                                    <img src="./image/Group 1000001997.png">
                                 </div>
                                 <span class="text-lg">Online Transaction
                                     facilities.</span>
@@ -255,7 +265,7 @@
                             <div class="flex items-center gap-3">
                                 <div
                                     class="w-5 h-5 border border-white/80 flex items-center justify-center">
-                                    <img src="./image/Frame.png">
+                                    <img src="./image/Group 1000001997.png">
                                 </div>
                                 <span class="text-lg">Regular Portfolio
                                     review.</span>
@@ -263,27 +273,215 @@
                             <div class="flex items-center gap-3">
                                 <div
                                     class="w-5 h-5 border border-white/80 flex items-center justify-center">
-                                    <img src="./image/Frame.png">
+                                    <img src="./image/Group 1000001997.png">
                                 </div>
                                 <span class="text-lg">Online Back-office.</span>
                             </div>
                         </div>
                     </div>
-                </section>
+                </div>
 
             </div>
-        </section>
-
-        <!-- SEction-5 -->
-        <div class="w-2xl h-[200px]">
-
-        <!-- Text Section -->
-        <div class="text-gray-600 text-lg bg-white">
-            <img src="./image/Group 1000005158.png" class="w-xl h-xl">
-
         </div>
-        <div><h1>contact us</h1></div>
 
-    </div>
+        <!-- Section-5 -->
+        <body class="bg-gray-50">
+
+            <div
+                class="container mx-auto flex flex-wrap justify-center items-start p-5 h-screen">
+                <!-- Image Container -->
+                <div
+                    class="image-container flex justify-center w-full sm:w-1/2 lg:w-1/3 p-4">
+                    <img src="./image/Group 1000005158.png" alt="Team Meeting"
+                        class="max-w-full h-auto w-96">
+                </div>
+
+                <!-- Form Container -->
+                <div
+                    class="form-container flex justify-center w-full sm:w-1/2 lg:w-1/3 p-4">
+                    <div class="w-full max-w-lg">
+                        <h2 class="text-xl font-semibold text-center">Contact
+                            Us</h2>
+                        <form action="#" method="POST"
+                            class="flex flex-col gap-4 h-[100px] mb-[100px]">
+                            <label for="name" class="font-medium">Name</label>
+                            <input type="text" id="name" name="name" required
+                                class="p-1 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
+
+                            <label for="email" class="font-medium">Email</label>
+                            <input type="email" id="email" name="email" required
+                                class="p-1 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
+
+                            <label for="number"
+                                class="font-medium">Number</label>
+                            <input type="tel" id="number" name="number" required
+                                class="p-1 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
+
+                            <label for="subject"
+                                class="font-medium">Subject</label>
+                            <input type="text" id="subject" name="subject"
+                                required
+                                class="p-1 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
+
+                            <label for="message"
+                                class="font-medium">Message</label>
+                            <textarea id="message" name="message" rows="4"
+                                required
+                                class="p-6 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
+
+                            <button type="submit"
+                                class=" p-1 bg-blue-600 text-white rounded-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500">
+                                Send
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+        </body>
+
+        <!-- Section-6 -->
+        <div class="relative flex justify-center items-center px-4">
+            <div
+                class="flex flex-col sm:flex-row items-center space-y-4 sm:space-y-0 sm:space-x-4 bg-white p-4 rounded-lg shadow-lg w-full max-w-4xl">
+                <!-- Left: Title -->
+                <div
+                    class="text-lg font-semibold text-gray-800 text-center sm:text-left">
+                    <p>Subscribe to our Newsletter</p>
+                </div>
+
+                <!-- Middle: Email Input -->
+                <div class="w-full sm:w-auto">
+                    <input
+                        type="email"
+                        placeholder="Enter your email"
+                        class="px-4 py-2 w-full sm:w-[300px] rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500" />
+                </div>
+
+                <!-- Right side: Subscribe Button -->
+                <div class="w-full sm:w-auto">
+                    <button
+                        class="px-6 py-2 w-full sm:w-auto bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition duration-300">
+                        Subscribe
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- section 7 -->
+        <div class="bg-[#0A132F] text-white">
+            <footer class="py-10">
+                <div class="container mx-auto px-4">
+                    <div
+                        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
+                        <!-- Logo and Description -->
+                        <div>
+                            <div class="flex items-center mb-4 text-white">
+                                <img src="./image/image 11.png"
+                                    class="font-white" />
+                            </div>
+                            <p class="text-sm leading-relaxed text-gray-300">
+                                There are many variations of passages of Lorem
+                                Ipsum available, but the majority have suffered
+                                alteration.
+                            </p>
+                            <div class="w-full flex justify-center gap-2 mt-4">
+                                <img src="./image/Group 1000001807.png"
+                                    class="font-white" />
+                                <img src="./image/Group 1000001808.png"
+                                    class="font-white" />
+                                <img src="./image/Group 1000001809.png"
+                                    class="font-white" />
+                                <img src="./image/Group 1000001810.png"
+                                    class="font-white" />
+                            </div>
+
+                            <div class="flex space-x-4 mt-4 justify-center">
+                                <a href="#"
+                                    class="text-gray-300 hover:text-white">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a href="#"
+                                    class="text-gray-300 hover:text-white">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                                <a href="#"
+                                    class="text-gray-300 hover:text-white">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                                <a href="#"
+                                    class="text-gray-300 hover:text-white">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Links -->
+                        <div>
+                            <h3 class="font-semibold mb-4">Link</h3>
+                            <ul class="space-y-2 text-sm text-gray-300">
+                                <li><a href="#"
+                                        class="hover:text-white">Home</a></li>
+                                <li><a href="#" class="hover:text-white">About
+                                        Us</a></li>
+                                <li><a href="#"
+                                        class="hover:text-white">Services</a></li>
+                                <li><a href="#"
+                                        class="hover:text-white">Downloads</a></li>
+                                <li><a href="#"
+                                        class="hover:text-white">Contact</a></li>
+                            </ul>
+                        </div>
+
+                        <!-- Services -->
+                        <div>
+                            <h3 class="font-semibold mb-4">Services</h3>
+                            <ul class="space-y-2 text-sm text-gray-300">
+                                <li><a href="#"
+                                        class="hover:text-white">Financial
+                                        Planning</a></li>
+                                <li><a href="#"
+                                        class="hover:text-white">Financial
+                                        Calculators</a></li>
+                                <li><a href="#"
+                                        class="hover:text-white">Derivatives</a></li>
+                                <li><a href="#"
+                                        class="hover:text-white">Currencies</a></li>
+                                <li><a href="#"
+                                        class="hover:text-white">NRI</a></li>
+                            </ul>
+                        </div>
+
+                        <!-- Contact -->
+                        <div>
+                            <h3 class="font-semibold mb-4">Contact Us</h3>
+                            <ul class="space-y-2 text-sm text-gray-300">
+                                <li class="flex items-center">
+                                    <img src="./image/Group 128.png" alt="phone"
+                                        class="mr-2"> +91 9328036665
+                                </li>
+                                <li class="flex items-center">
+                                    <img src="./image/Group 128 (1).png"
+                                        alt="email" class="mr-2">
+                                    info@fintaxnology.com
+                                </li>
+                                <li class="flex items-center">
+                                    <img src="./image/Group 128 (2).png"
+                                        alt="address" class="mr-2"> 2, Ground
+                                    Floor, F-1 “Shruti” Mukta Nand Nager, Nr.
+                                    Gujrat, Adajan, Surat-395006.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div
+                        class="border-t border-gray-700 mt-10 pt-4 text-center text-sm text-gray-300">
+                        Copyright © 2023 Financial Solutions. All Rights
+                        Reserved.
+                    </div>
+                </div>
+            </footer>
+        </div>
+
     </body>
 </html>
